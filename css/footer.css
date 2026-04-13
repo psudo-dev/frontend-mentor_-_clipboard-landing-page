@@ -1,5 +1,5 @@
 .footer {
-	background: #f5f6f8;
+	background: var(--bg-footer);
 }
 
 .footer__logo {
@@ -19,7 +19,7 @@
 	gap: var(--sp-32);
 }
 
-@media (min-width: 1024px) {
+@media (min-width: 64em) {
 	.footer__content {
 		display: grid;
 		grid-template-columns: auto 1fr auto;
@@ -36,5 +36,11 @@
 		gap: var(--sp-16) var(--sp-64);
 		grid-auto-flow: column;
 		margin-bottom: 0;
+	}
+}
+
+@media (prefers-color-scheme: dark) {
+	.footer__socials img {
+		filter: brightness(0.75) invert(1);
 	}
 }

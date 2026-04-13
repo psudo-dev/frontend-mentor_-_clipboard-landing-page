@@ -20,7 +20,7 @@
 	width: 120px;
 }
 
-@media (min-width: 1024px) {
+@media (min-width: 64em) {
 	.brands__list {
 		grid-template-columns: repeat(5, 1fr);
 	}

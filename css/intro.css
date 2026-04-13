@@ -14,7 +14,7 @@
 	margin-bottom: var(--sp-24);
 }
 
-@media (min-width: 1024px) {
+@media (min-width: 64em) {
 	.intro {
 		background-image: url("../images/bg-header-desktop.png");
 	}

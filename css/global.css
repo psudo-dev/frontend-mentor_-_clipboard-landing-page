@@ -32,6 +32,7 @@ body {
 	color: var(--text-light);
 	line-height: 1.5;
 	font-size: var(--fs-14);
+	background: var(--bg-body);
 }
 
 h1,
@@ -69,6 +70,7 @@ p {
 	border-radius: 100px;
 	color: var(--text-white);
 	box-shadow: 0 10px 10px rgba(0, 0, 0, 0.1);
+	transition: all 0.3s ease;
 }
 
 .clr-primary {
@@ -98,7 +100,7 @@ p {
 	gap: var(--sp-24);
 	padding-inline: var(--sp-24);
 	padding-block: var(--sp-48);
-	max-width: 1280px;
+	max-width: 80rem;
 	margin-inline: auto;
 }
 
@@ -109,7 +111,7 @@ p {
 	justify-items: center;
 }
 
-@media (min-width: 1024px) {
+@media (min-width: 64em) {
 	.buttons {
 		grid-template-columns: 1fr 1fr;
 	}

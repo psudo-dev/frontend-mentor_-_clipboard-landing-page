@@ -13,6 +13,8 @@
 	- [Frontend Mentor](#frontend-mentor)
 		- [The Challenge](#the-challenge)
 	- [Commentary](#commentary)
+		- [Accessibilty and Semantic HTML](#accessibilty-and-semantic-html)
+		- [Dark Mode](#dark-mode)
 	- [Built Using](#built-using)
 	- [Author](#author)
 	- [License](#license)
@@ -45,7 +47,13 @@ Want some support on the challenge? [Join the Frontend Mentor community](https:/
 
 ## Commentary
 
+### Accessibilty and Semantic HTML
+
 I've been focusing on learning more about accessibility and semantic HTML, so I can better understand how to structure my pages and make them more accessible to all users. By each project I'm learning a bit more and hopefully through practice it will become a bit more intuitive to me.
+
+### Dark Mode
+
+I also implemented dark mode for this project - but only on system level. Since I used `tokens` for the colors, it was pretty easy to implement dark mode by just changing the values of the tokens when the user has dark mode enabled on their system.
 
 ## Built Using
 

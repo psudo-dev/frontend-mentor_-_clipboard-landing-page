@@ -24,7 +24,7 @@
 	align-self: center;
 }
 
-@media (min-width: 1024px) {
+@media (min-width: 64em) {
 	.workflow__list {
 		grid-template-columns: 1fr 1fr 1fr;
 		gap: var(--sp-32);
