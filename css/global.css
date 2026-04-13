@@ -70,7 +70,9 @@ p {
 	border-radius: 100px;
 	color: var(--text-white);
 	box-shadow: 0 10px 10px rgba(0, 0, 0, 0.1);
-	transition: all 0.3s ease;
+	transition:
+		background-color 0.3s ease,
+		box-shadow 0.3s ease;
 }
 
 .clr-primary {
@@ -118,5 +120,11 @@ p {
 
 	.btn {
 		padding: var(--sp-12) var(--sp-24);
+	}
+}
+
+@media (prefers-reduced-motion: reduce) {
+	.btn {
+		transition: none;
 	}
 }

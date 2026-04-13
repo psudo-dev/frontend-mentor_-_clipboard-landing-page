@@ -7,5 +7,5 @@
 	display: grid;
 	justify-items: center;
 	margin-bottom: calc(-1 * (var(--sp-48)));
-	max-width: 720px;
+	max-width: 45rem;
 }
