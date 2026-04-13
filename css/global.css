@@ -67,7 +67,7 @@ p {
 
 .btn {
 	padding: var(--sp-16) var(--sp-64);
-	border-radius: 100px;
+	border-radius: 4rem;
 	color: var(--text-white);
 	box-shadow: 0 10px 10px rgba(0, 0, 0, 0.1);
 	transition:

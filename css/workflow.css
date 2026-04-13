@@ -17,8 +17,8 @@
 }
 
 .workflow__item img {
-	width: 32px;
-	height: 32px;
+	width: 2rem;
+	height: 2rem;
 	object-fit: contain;
 	margin-bottom: var(--sp-16);
 	align-self: center;

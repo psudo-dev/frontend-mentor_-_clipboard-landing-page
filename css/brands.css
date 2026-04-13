@@ -17,7 +17,7 @@
 
 .brand__item img {
 	height: auto;
-	width: 120px;
+	width: 7.5rem;
 }
 
 @media (min-width: 64em) {
