@@ -1,0 +1,40 @@
+.workflow__text {
+	margin-bottom: var(--sp-64);
+}
+
+.workflow__list {
+	display: grid;
+	gap: var(--sp-48);
+	margin-bottom: var(--sp-32);
+}
+
+.workflow__item {
+	gap: var(--sp-16);
+	display: grid;
+	grid-template-rows: auto auto 1fr;
+	justify-items: center;
+	align-content: center;
+}
+
+.workflow__item img {
+	width: 32px;
+	height: 32px;
+	object-fit: contain;
+	margin-bottom: var(--sp-16);
+	align-self: center;
+}
+
+@media (min-width: 1024px) {
+	.workflow__list {
+		grid-template-columns: 1fr 1fr 1fr;
+		gap: var(--sp-32);
+	}
+
+	.workflow__item p {
+		max-width: 30ch;
+	}
+
+	.workflow__item img {
+		margin-bottom: var(--sp-24);
+	}
+}

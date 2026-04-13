@@ -1,0 +1,21 @@
+.intro {
+	background-image: url("../images/bg-header-mobile.png");
+	background-position: center top;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+.intro__logo {
+	margin-top: var(--sp-64);
+	margin-bottom: var(--sp-24);
+}
+
+.intro__text {
+	margin-bottom: var(--sp-24);
+}
+
+@media (min-width: 1024px) {
+	.intro {
+		background-image: url("../images/bg-header-desktop.png");
+	}
+}

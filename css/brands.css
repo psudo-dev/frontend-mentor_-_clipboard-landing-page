@@ -1,0 +1,27 @@
+.brands {
+	padding-block: var(--sp-64);
+}
+
+.brands__list {
+	display: grid;
+	gap: var(--sp-64);
+	justify-items: center;
+	align-content: center;
+}
+
+.brand__item {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.brand__item img {
+	height: auto;
+	width: 120px;
+}
+
+@media (min-width: 1024px) {
+	.brands__list {
+		grid-template-columns: repeat(5, 1fr);
+	}
+}

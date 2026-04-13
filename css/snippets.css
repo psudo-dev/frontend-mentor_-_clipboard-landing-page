@@ -1,0 +1,50 @@
+.snippets__text {
+	margin-block: var(--sp-24);
+}
+
+.snippets__feats {
+	display: grid;
+	justify-items: center;
+	gap: var(--sp-32);
+}
+
+.snippets__feats figure {
+	width: 100%;
+	display: grid;
+	justify-items: center;
+	margin-bottom: var(--sp-48);
+	max-width: 720px;
+}
+
+.snippets__list {
+	display: grid;
+	gap: var(--sp-32);
+}
+
+.snippets__list li {
+	display: grid;
+	gap: var(--sp-8);
+}
+
+@media (min-width: 1024px) {
+	.snippets {
+		padding-inline: var(--sp-96);
+	}
+
+	.snippets__feats {
+		grid-template-columns: 2fr 1fr;
+		gap: var(--sp-96);
+	}
+
+	.snippets__list {
+		text-align: left;
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+		justify-self: start;
+	}
+
+	.snippets__list p {
+		max-width: 30ch;
+	}
+}

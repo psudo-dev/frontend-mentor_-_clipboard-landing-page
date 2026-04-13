@@ -1,0 +1,11 @@
+.anywhere__text {
+	margin-top: var(--sp-48);
+}
+
+.anywhere figure {
+	width: 100%;
+	display: grid;
+	justify-items: center;
+	margin-bottom: calc(-1 * (var(--sp-48)));
+	max-width: 720px;
+}
