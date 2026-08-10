@@ -2,7 +2,7 @@
 
 # Frontend Mentor - Clipboard Landing Page
 
-[![Frontend Mentor](https://img.shields.io/badge/Junior-Clipboard%20Landing%20Page-2ec866?style=flat-square&logo=frontendmentor)](https://www.frontendmentor.io/challenges/clipboard-landing-page-5cc9bccd6c4c91111378ecb9
+[![Frontend Mentor](https://img.shields.io/badge/Junior-Clipboard%20Landing%20Page-2ec866?style=flat-square&logo=frontendmentor)](https://www.frontendmentor.io/challenges/clipboard-landing-page-5cc9bccd6c4c91111378ecb9)
 
 ## Overview
 
