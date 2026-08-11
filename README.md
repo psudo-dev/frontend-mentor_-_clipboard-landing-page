@@ -2,7 +2,7 @@
 
 # Frontend Mentor - Clipboard Landing Page
 
-[![Frontend Mentor](https://img.shields.io/badge/Junior-Clipboard%20Landing%20Page-2ec866?style=flat-square&logo=frontendmentor)](https://www.frontendmentor.io/challenges/clipboard-landing-page-5cc9bccd6c4c91111378ecb9)
+[![Frontend Mentor](https://img.shields.io/badge/Junior-Clipboard%20Landing%20Page-2ec866?style=flat-square&logo=frontendmentor)](https://www.frontendmentor.io/challenges/clipboard-landing-page-5cc9bccd6c4c91111378ecb9) ![Semantic HTML](https://img.shields.io/badge/Semantic%20HTML-E34F26?style=flat-square&logo=html5&logoColor=white) ![Accessibility](https://img.shields.io/badge/Accessibility-E34F26?style=flat-square) ![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=flat-square&logo=css&logoColor=white) ![Dark Mode](https://img.shields.io/badge/Dark%20Mode-2C2C2C?style=flat-square)
 
 ## Overview
 
